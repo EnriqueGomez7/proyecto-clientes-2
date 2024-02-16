@@ -1,0 +1,35 @@
+.title h1 {
+    text-align: center;
+    color: #333;
+}
+  
+.formulario {
+    width: 300px;
+    margin: 0 auto;
+}
+  
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.formulario input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+.formulario button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.formulario button:hover {
+    background-color: #45a049;
+}
+  

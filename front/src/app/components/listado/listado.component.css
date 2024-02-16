@@ -1,0 +1,36 @@
+.title h1 {
+    text-align: center;
+    color: #333;
+}
+  
+.tabla {
+    margin: auto;
+    width: 80%;
+}
+  
+.tabla table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.tabla td, .tabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.tabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+.tabla tr:hover {
+    background-color: #ddd;
+}
+  
+.tabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+  

@@ -1,1 +1,19 @@
-<p>listado works!</p>
+<div class="title">
+    <h1>Listado de Usuarios</h1>
+</div>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Apellidos</td>
+            <td>Correo</td>
+        </tr>
+        
+        <tr *ngFor="let usuarios of usuarios">
+            <td>{{usuarios.nombre}}</td>
+            <td>{{usuarios.apellidoUno + " " + usuarios.apellidoDos}}</td>
+            <td>{{usuarios.correo}}</td>
+        </tr>
+    </table>
+</div>
