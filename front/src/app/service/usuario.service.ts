@@ -8,7 +8,7 @@ import { Usuario } from '../Models/Usuario';
 })
 export class UsuarioService {
 
-  private BASE_URL:string = "http://localhost:8080/api/"
+  private BASE_URL:string = "http://localhost:8080/api"
 
   private httpHeader: HttpHeaders = new HttpHeaders({'Content-Type': 'application/json'})
 
@@ -19,7 +19,7 @@ export class UsuarioService {
   }
 
   guardarUsuario(usuario: Usuario): Observable<any> {
-    return this.http.post<any>(this.BASE_URL+"/alumno", usuario, {headers:this.httpHeader})
+    return this.http.post<any>(this.BASE_URL+ "/usuario", usuario, {headers:this.httpHeader})
   }
 
 }

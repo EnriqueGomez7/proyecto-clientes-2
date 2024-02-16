@@ -1,1 +1,13 @@
-<p>registro works!</p>
+<div class="title">
+    <h1>Formulario de Usuario</h1>
+</div>
+
+<div class="formulario">
+    <form (submit)="getData()" [formGroup]="form">
+        <input type="text" formControlName="nombre" placeholder="Nombre" autocomplete="off"><br><br>
+        <input type="text" formControlName="apellidoUno" placeholder="Primer Apellido" autocomplete="off"><br><br>
+        <input type="text" formControlName="apellidoDos" placeholder="Segundo Apellido" autocomplete="off"><br><br>
+        <input type="text" formControlName="correo" placeholder="Correo electrónico" autocomplete="off"><br><br>
+        <button type="submit">Guardar Usuario</button>
+    </form>
+</div>
